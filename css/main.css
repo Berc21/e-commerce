@@ -43,19 +43,34 @@ pre {
   line-height: 18.5714px;
 }
 
+@media (max-width: 768px) {
+  .slide-img {
+    display: none;
+  }
+}
+@media (max-width: 960px) {
+  header form {
+    width: 100% !important;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    color: #666;
+    text-align: center;
+  }
+}
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
   width: 100%;
   height: 100%;
   border-radius: 10px;
   background: white;
-  box-shadow: 0px 0px 5px 0px #7a7a7a;
+  box-shadow: 0px 0px 5px 0px rgba(122, 122, 122, 0.5);
 }
 
 .navbar {
   margin-bottom: 20px;
   background: lightcyan;
   margin-top: 10px;
-  box-shadow: 0px 0px 5px 0px #7a7a7a;
+  box-shadow: 0px 0px 5px 0px rgba(122, 122, 122, 0.5);
   padding: 10px;
 }
 
@@ -64,14 +79,15 @@ header form {
   float: right;
   background: lightcyan;
   padding: 20px 10px;
-  box-shadow: 0px 0px 5px 0px #7a7a7a;
+  box-shadow: 0px 0px 5px 0px rgba(122, 122, 122, 0.5);
 }
 
-.thumnail {
-  box-shadow: 0px 0px 5px 0px rgba(122, 122, 122, 0.5);
-  padding: 10px;
+.thumbnail {
+  padding: 20px;
 }
-.thumnail img {
-  margin: 0 auto;
-  width: 100%;
+
+.jumbotron {
+  padding: 20px;
+  background: lightcyan;
+  box-shadow: 0px 0px 5px 0px rgba(122, 122, 122, 0.5);
 }

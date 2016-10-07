@@ -1,0 +1,15 @@
+@media (max-width:768px) {
+  .slide-img {
+    display: none;
+  }
+
+}
+@media (max-width:960px) {
+  header form {
+    width: 100% !important;
+  }
+  .navbar-default .navbar-nav>li>a {
+    color: #666;
+    text-align: center;
+}
+}
