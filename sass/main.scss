@@ -33,8 +33,20 @@ header form {
 }
 .tabpanel {
   height: 100px !important;
-}
 
+}
+.nav-tabs{
+  a {
+    color: black;
+    &:hover {
+      background: white !important;
+    }
+  }
+
+}
+.panel-heading{
+    background:$navbar !important;
+}
 .uye {
   margin-top: 20px;
 }

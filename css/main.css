@@ -100,6 +100,17 @@ header form {
   height: 100px !important;
 }
 
+.nav-tabs a {
+  color: black;
+}
+.nav-tabs a:hover {
+  background: white !important;
+}
+
+.panel-heading {
+  background: lightcyan !important;
+}
+
 .uye {
   margin-top: 20px;
 }
